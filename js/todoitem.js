@@ -1,18 +1,18 @@
 export default class todoItem{
   constructor() {
-    this.id = null;
-    this._item = item;
+    this._id = null;
+    this._item = null;
   }
   getId() {
-    return this.id;
+    return this._id;
   }
   setId(id) {
-    this._id = id
+    this._id = id;
   }
   getItem() {
     return this._item
   }
   setItem(item) {
-    this.item = item;
+    this._item = item;
   }
 }
